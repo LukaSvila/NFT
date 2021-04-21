@@ -11,18 +11,36 @@ function Cards() {
                     <ul className="cards__items">
                         <CardItem
                         src="images/img-9.jpg"
-                        text="Explore the hiddem beauty of NFT's art"
-                        label='New Art Dimension'
-                        path='services'
+                        text="Explore the hidden beauty of NFT's picture"
+                        label='The path to infinty'
+                        path='explore'
                         />
+                        <CardItem
+                        src="images/img-10.jpg"
+                        text="You are bored? Come and see adorable CryptoKitties :D"
+                        label='Meow!'
+                        path='explore'
+                        />                    
                     </ul>
                     <ul className="cards__items">
                         <CardItem
-                        src="images/img-3.jpg"
-                        text="Explore the hiddem beauty of NFT's art"
+                        src="images/img-12.jpg"
+                        text="Digital art is your passion, why don't you become modern Picasso"
                         label='New Art Dimension'
-                        path='services'
+                        path='explore'
                         />
+                        <CardItem
+                        src="images/img-11.jpg"
+                        text="You have legendary skin and you need money. No problem, NFT's are here!"
+                        label='Game Time'
+                        path='explore'
+                        />       
+                         <CardItem
+                        src="images/img-5.jpg"
+                        text="Just ordinary guy with nice photos, let's change that!"
+                        label='Local photographer'
+                        path='explore'
+                        />         
                     </ul>
                 </div>
             </div>
