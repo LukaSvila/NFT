@@ -1,21 +1,30 @@
 import React from 'react';
 import '../../App.css';
-import '../Cards.css';
+import './Contact.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default function Contact(){
     return (
     <>
         <h1 className='contacts'>Contact</h1>
-        <div className='cards'>
-            <h1>Talk to us!</h1>
-            <div className="cards__container">
-            <form>
-                <label>
-                 Name:
-                <input type="text" name="name" />
-                </label>
-                <input type="submit" value="Submit" />
-            </form>
+        <div className='section'>
+            <div className="container">
+                <form>
+                    <label>First Name</label>
+                    <input type='text' placeholder="Your name.."/>
+                    <label>Last Name</label>
+                    <input type='text' placeholder="Your last name.."/>
+                    <label>Country</label>
+                    <select>
+                        <option value="Australia">Australia</option>
+                        <option value="Serbia">Serbia</option>
+                        <option value="Macedonia">Macedonia</option>
+                    </select>
+                    <label>Subject</label>
+                    <textarea placeholder="Write something to us..."></textarea>
+                    <input type="submit"/>
+                </form>
             </div>
         </div>
     </>
